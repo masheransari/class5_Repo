@@ -1,0 +1,50 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase login
+[debug] Platform:     win32
+[debug] Node Version: v6.0.0
+[debug] Time:         Fri Jun 17 2016 18:42:21 GMT+0500 (Pakistan Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Visit this URL on any device to log in:
+[info] https://www.firebase.com/login/confirm.html?ticket=0f37931e-999b-44eb-9816-edbc6fef6add
+[info] 
+[info] Waiting for authentication...
+[info] 
+[debug] Error: EPERM: operation not permitted, rename 'C:\Users\asher.ansari\.config\configstore\firebase-tools.json.2016251000' -> 'C:\Users\asher.ansari\.config\configstore\firebase-tools.json'
+    at Error (native)
+    at Object.fs.renameSync (fs.js:803:18)
+    at Function.writeFileSync [as sync] (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\write-file-atomic\index.js:39:8)
+    at Object.create.all.set (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:62:21)
+    at Object.Configstore.set (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:93:11)
+    at C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\commands\login.js:29:19
+    at lib$rsvp$$internal$$tryCatch (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:1036:16)
+    at lib$rsvp$$internal$$invokeCallback (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:1048:17)
+    at lib$rsvp$$internal$$publish (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:1019:11)
+    at lib$rsvp$asap$$flush (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:1198:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase login
+[debug] Platform:     win32
+[debug] Node Version: v6.0.0
+[debug] Time:         Fri Jun 17 2016 18:43:25 GMT+0500 (Pakistan Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Visit this URL on any device to log in:
+[info] https://www.firebase.com/login/confirm.html?ticket=4132f255-e954-4012-9f94-529a242eae11
+[info] 
+[info] Waiting for authentication...
+[info] 
+[debug] Error: EPERM: operation not permitted, rename 'C:\Users\asher.ansari\.config\configstore\firebase-tools.json.1484029307' -> 'C:\Users\asher.ansari\.config\configstore\firebase-tools.json'
+    at Error (native)
+    at Object.fs.renameSync (fs.js:803:18)
+    at Function.writeFileSync [as sync] (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\write-file-atomic\index.js:39:8)
+    at Object.create.all.set (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:62:21)
+    at Object.Configstore.set (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:93:11)
+    at C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\commands\login.js:29:19
+    at lib$rsvp$$internal$$tryCatch (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:1036:16)
+    at lib$rsvp$$internal$$invokeCallback (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:1048:17)
+    at lib$rsvp$$internal$$publish (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:1019:11)
+    at lib$rsvp$asap$$flush (C:\Users\asher.ansari\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rsvp\dist\rsvp.js:1198:9)
+[error] 
+[error] Error: An unexpected error has occurred.
